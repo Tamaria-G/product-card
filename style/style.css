@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: roboto1;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: #FFC3C3;
+    font-family: roboto;
+}
+
+.frame{
+    width: 400px;
+    height: 838px;
+    background-color: #ffffff;
+    border: 1px solid #E7E6EB;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin: 122px auto;
+    position: relative;
+}
+.frame img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.info{
+    position: absolute;
+    top: 322px;
+    left: 40px;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.describe{
+    width: 320px;
+    height: 68px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: roboto1;
+    line-height: 24px;
+}
+
+.choose{
+    color: #666666;
+    font-family: roboto1;
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.colors{
+    display: flex;
+    align-items: center;
+}
+
+
+.red{
+    width: 40px;
+    height: 40px;
+    background-color: #EE4444;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 16px;
+}
+.blue{
+    width: 40px;
+    height: 40px;
+    background-color: #3C81F6;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 16px;
+}
+.black{
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.red:hover, .blue:hover, .black:hover{
+    border:4px solid #000000
+}
+
+
+ .add{
+    width: 320px;
+    height: 56px;
+    background-color: #FBBF23;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 24px;
+    font-family: roboto1;
+ }
+
+ .add:hover{
+    background-color: #f0b217;
+ }
+
+ .buy{
+    width: 320px;
+    height: 56px;
+    border: 1px solid #61A5FA;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #333333;
+    font-size: 24px;
+    font-family: roboto1;
+    margin-bottom: 32px;
+ }
+
+ .buy:hover{
+    background-color: #ebe8e8;
+ }
+
+
+
+
+ .read{
+    font-size: 16px;
+    font-family: roboto1;
+    color: #61A5FA;
+ }
+ .read:hover{
+    text-decoration: underline;
+ }
